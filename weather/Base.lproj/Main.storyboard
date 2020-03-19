@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="889.85507246376824" y="59.598214285714285"/>
         </scene>
-        <!--5 day forecast every 3 hours-->
+        <!--5 Day Forecast-->
         <scene sceneID="zpG-3N-Ke2">
             <objects>
                 <viewController id="C34-56-Vjq" customClass="ForecastViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,7 +132,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Pnc-4l-6RR"/>
                     </view>
-                    <navigationItem key="navigationItem" title="5 day forecast every 3 hours" id="aSO-Wv-247"/>
+                    <navigationItem key="navigationItem" title="5 Day Forecast" id="aSO-Wv-247"/>
                     <connections>
                         <outlet property="tableView" destination="AC3-Xi-6Su" id="XAz-ce-Dcy"/>
                     </connections>

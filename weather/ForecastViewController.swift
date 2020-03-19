@@ -69,13 +69,13 @@ class ForecastViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return forecasts.count
+        return forecasts.count/8
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ForecastCell") as! ForecastCell
         
-        let forecast = forecasts[indexPath.row]
+        let forecast = forecasts[indexPath.row * 8]
         
         let date_text = forecast["dt_txt"] as! String
         let date_array = date_text.split(separator: " ")
