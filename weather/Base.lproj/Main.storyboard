@@ -32,7 +32,7 @@
                                 <rect key="frame" x="48" y="313" width="311" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Search"/>
+                                <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="clickSearchBtn:" destination="saJ-I6-JAw" eventType="touchUpInside" id="SHs-LW-n59"/>
                                     <segue destination="C34-56-Vjq" kind="show" id="pLj-3K-usG"/>
